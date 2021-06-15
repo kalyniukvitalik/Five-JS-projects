@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:hover {
+  border: 5px solid rgb(250, 239, 239);
+	background:linear-gradient(to bottom, #ededed 5%, #aaa6aa 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	cursor:pointer;
+	color:#3a8a9e;
+	padding:7px 25px;
+	text-decoration:none;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 5px solid #eee;
+  box-shadow: 3px 4px 0px 0px #94abb3;
+	background:linear-gradient(to bottom, #d6b7b7 5%, #d4c4a3 100%);
+	background-color:#eb9292;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	padding:7px 25px;
+	text-decoration:none;
+}
+
+.hold:hover {
+  border: 5px solid #eee;
+  box-shadow: 3px 4px 0px 0px #94abb3;
+	background:linear-gradient(to bottom, #c6d6b7 5%, #fcd27e 100%);
+	background-color:#ecdddd;
+	border-radius:15px;
+	cursor:pointer;
+	color:#3a8a9e;
+	padding:7px 25px;
+	text-decoration:none;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 3px solid #fcd27e77;
+  box-shadow: 0 10px 20px -25px #8ed7ed63 inset;
+
+}
